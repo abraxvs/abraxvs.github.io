@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.6">
   <diagram name="Página-1" id="IF9zF9d9jBglR46m6e4E">
-    <mxGraphModel dx="3969" dy="2151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5664" dy="2519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DhlkckgEzZ8JU8sMvrn0-34" value="Communication" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="500" y="110" width="900" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="DhlkckgEzZ8JU8sMvrn0-1" value="«Controller»&lt;br&gt;&lt;b&gt;Finite-State Machine&lt;br&gt;&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="765" y="-140" width="140" height="110" as="geometry" />
+        <mxCell id="DhlkckgEzZ8JU8sMvrn0-1" value="«Controller»&lt;br&gt;&lt;b&gt;Finite-State Machine&lt;br&gt;(FSM)&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="765" y="-140" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="DhlkckgEzZ8JU8sMvrn0-2" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="DhlkckgEzZ8JU8sMvrn0-1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -16,29 +16,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DhlkckgEzZ8JU8sMvrn0-6" value="Central Satellite" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="-1210" y="-480" width="1640" height="1180" as="geometry" />
+          <mxGeometry x="-1830" y="-550" width="1660" height="1250" as="geometry" />
         </mxCell>
         <mxCell id="DhlkckgEzZ8JU8sMvrn0-7" value="Probe (sonda)" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="480" y="-160" width="950" height="670" as="geometry" />
         </mxCell>
-        <mxCell id="DhlkckgEzZ8JU8sMvrn0-10" value="API Gateway" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1480" y="280" width="260" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="DhlkckgEzZ8JU8sMvrn0-11" value="Module" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="695" y="710" width="100" height="50" as="geometry" />
+        <mxCell id="DhlkckgEzZ8JU8sMvrn0-10" value="Apache Kafka" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-260" width="200" height="430" as="geometry" />
         </mxCell>
         <mxCell id="DhlkckgEzZ8JU8sMvrn0-16" value="&lt;b&gt;Earth Satellites&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1460" y="430" width="180" height="90" as="geometry" />
+          <mxGeometry x="-2110" y="30" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="DhlkckgEzZ8JU8sMvrn0-17" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="DhlkckgEzZ8JU8sMvrn0-16">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-27" y="7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DhlkckgEzZ8JU8sMvrn0-19" value="&amp;laquo;Annotation&amp;raquo;&lt;br/&gt;&lt;b&gt;Component&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="740" width="180" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="DhlkckgEzZ8JU8sMvrn0-20" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="DhlkckgEzZ8JU8sMvrn0-19">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
@@ -89,7 +78,7 @@
           <mxGeometry x="960" y="170" width="420" height="265" as="geometry" />
         </mxCell>
         <mxCell id="DhlkckgEzZ8JU8sMvrn0-47" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;ED25519" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1085" y="342.5" width="150" height="65" as="geometry" />
+          <mxGeometry x="991" y="327.5" width="150" height="65" as="geometry" />
         </mxCell>
         <mxCell id="DhlkckgEzZ8JU8sMvrn0-48" value="«Sensor»&lt;br&gt;&lt;b&gt;Data Recolection&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1260" y="-70" width="130" height="70" as="geometry" />
@@ -100,10 +89,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DhlkckgEzZ8JU8sMvrn0-50" value="Public - Private Key" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="250" width="113" height="50" as="geometry" />
+          <mxGeometry x="1208.5" y="340" width="113" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DhlkckgEzZ8JU8sMvrn0-51" value="«Component»&lt;div&gt;Authentication Gate&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="980" y="240" width="130" height="70" as="geometry" />
+          <mxGeometry x="1001" y="225" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DhlkckgEzZ8JU8sMvrn0-52" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="DhlkckgEzZ8JU8sMvrn0-51">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -114,10 +103,10 @@
           <mxGeometry x="690" y="260" width="230" height="75" as="geometry" />
         </mxCell>
         <mxCell id="DhlkckgEzZ8JU8sMvrn0-56" value="Monitoring" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1160" y="-410" width="500" height="300" as="geometry" />
+          <mxGeometry x="-1800" y="-492.5" width="500" height="300" as="geometry" />
         </mxCell>
         <mxCell id="DhlkckgEzZ8JU8sMvrn0-57" value="«Controller»&lt;br&gt;&lt;b&gt;Central Satellite Command&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="850" width="157" height="80" as="geometry" />
+          <mxGeometry x="850" y="-10" width="157" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DhlkckgEzZ8JU8sMvrn0-58" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="DhlkckgEzZ8JU8sMvrn0-57">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -136,7 +125,7 @@
         <mxCell id="DhlkckgEzZ8JU8sMvrn0-59" value="Command Gate" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1070" y="-60" width="110" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="DhlkckgEzZ8JU8sMvrn0-60" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Instructions from the central satellite have priority over FSM commands&lt;/span&gt;&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="DhlkckgEzZ8JU8sMvrn0-60" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Instrucciones del satélite central tienen prioridad sobre las del FSM&lt;/span&gt;&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="930" y="-290" width="155" height="97.5" as="geometry" />
         </mxCell>
         <mxCell id="DhlkckgEzZ8JU8sMvrn0-62" value="«Component»&lt;br&gt;&lt;b&gt;Telemetry Buffer&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
@@ -148,19 +137,51 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DhlkckgEzZ8JU8sMvrn0-64" value="Spot of interest detection" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1150" y="170" width="380" height="420" as="geometry" />
+          <mxGeometry x="-1810" y="310" width="520" height="310" as="geometry" />
         </mxCell>
         <mxCell id="DhlkckgEzZ8JU8sMvrn0-65" value="Probe Position Tracking" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-610" y="250" width="380" height="420" as="geometry" />
+          <mxGeometry x="-1265" y="145" width="505" height="505" as="geometry" />
         </mxCell>
         <mxCell id="DhlkckgEzZ8JU8sMvrn0-66" value="Probe Orchestration" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-560" y="-440" width="380" height="420" as="geometry" />
+          <mxGeometry x="-1230" y="-520" width="430" height="402.5" as="geometry" />
         </mxCell>
         <mxCell id="DhlkckgEzZ8JU8sMvrn0-67" value="Command &amp;amp; Control" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry y="170" width="380" height="420" as="geometry" />
+          <mxGeometry x="-735" y="-90" width="510" height="470" as="geometry" />
         </mxCell>
         <mxCell id="DhlkckgEzZ8JU8sMvrn0-68" value="Event Ingestion" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry y="-380" width="380" height="420" as="geometry" />
+          <mxGeometry x="-740" y="-520" width="520" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="DhlkckgEzZ8JU8sMvrn0-70" value="AuthApiGate" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1193.5" y="-35" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DhlkckgEzZ8JU8sMvrn0-73" value="Apache Flink" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="110" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="DhlkckgEzZ8JU8sMvrn0-74" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://flink.apache.org/img/logo/png/500/flink_squirrel_500.png;" vertex="1" parent="1">
+          <mxGeometry x="155" y="420" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DhlkckgEzZ8JU8sMvrn0-77" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://logovectordl.com/wp-content/uploads/2021/05/apache-kafka-logo-vector.png;" vertex="1" parent="1">
+          <mxGeometry x="180" y="80" width="108" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DhlkckgEzZ8JU8sMvrn0-80" value="Security" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="430" width="520" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="DhlkckgEzZ8JU8sMvrn0-81" value="Earth Satellites Communication" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1805" y="-75" width="510" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="DhlkckgEzZ8JU8sMvrn0-83" value="«Component»&lt;div&gt;Public - Private Key Updater&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="225" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DhlkckgEzZ8JU8sMvrn0-84" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="DhlkckgEzZ8JU8sMvrn0-83">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DhlkckgEzZ8JU8sMvrn0-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=135;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="DhlkckgEzZ8JU8sMvrn0-85" target="DhlkckgEzZ8JU8sMvrn0-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DhlkckgEzZ8JU8sMvrn0-85" value="&lt;div style=&quot;text-align: justify;&quot;&gt;Usar este componente solo debería ser necesario si se incursiona en la idea de mandar ciertas sondas guía, que puedan dar instrucciones con la misma prioridad que el satélite central&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="286.25" width="160" height="147.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
